@@ -135,8 +135,9 @@ GameObject:
   - component: {fileID: 38273766}
   - component: {fileID: 38273765}
   - component: {fileID: 38273764}
+  - component: {fileID: 38273767}
   m_Layer: 5
-  m_Name: Button
+  m_Name: next_btn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -245,6 +246,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 38273762}
   m_CullTransparentMesh: 1
+--- !u!114 &38273767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 38273762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42cd880a9392c90459b365e9a8ac6553, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &228822712
 GameObject:
   m_ObjectHideFlags: 0
@@ -258,7 +271,7 @@ GameObject:
   - component: {fileID: 228822715}
   - component: {fileID: 228822714}
   m_Layer: 5
-  m_Name: Button
+  m_Name: front_btn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -605,6 +618,7 @@ GameObject:
   - component: {fileID: 1693056437}
   - component: {fileID: 1693056439}
   - component: {fileID: 1693056438}
+  - component: {fileID: 1693056440}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -652,7 +666,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 28bbf195d1e616c43aa0b88a4fa18320, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bcd560684716536429d0aa3d96a428f9, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -670,6 +684,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1693056436}
   m_CullTransparentMesh: 1
+--- !u!114 &1693056440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1693056436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b521627c0ce8eff4cafd78d19b76cdce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LoadApi: 0
+  loadMethod: 1
 --- !u!1 &1783797656
 GameObject:
   m_ObjectHideFlags: 0
@@ -838,7 +866,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.2924528, g: 0.28892097, b: 0.2690014, a: 1}
+  m_Color: {r: 0.23584908, g: 0.23584908, b: 0.23584908, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
